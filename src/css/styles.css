@@ -1,0 +1,131 @@
+#displayCards {
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Timeline */
+
+.cardHolder {
+    border-right: 1px solid #efefef;
+    border-left: 1px solid #efefef;
+}
+
+/* Card */
+
+.socialCard + .socialCard {
+
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+
+}
+
+/* Avatar */
+
+.avatar.black {
+
+    background-color: #000000;
+
+}
+
+/* Title */
+
+.bullet {
+
+    font-size: 0.8em;
+    position: relative;
+    bottom: 2px;
+
+}
+
+.nowrap {
+
+    white-space: nowrap;
+
+}
+
+.titleLink {
+    color: #3498db;
+}
+
+/* SplashImage */
+
+.splashImg {
+
+    border-radius: 3px 3px 0 0;
+    border: 1px solid #efefef;
+    height: 240px;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.topPicture {
+
+    height: 45px;
+    width: 45px;
+    box-sizing: border-box;
+
+}
+
+.splashTitle {
+
+    color: rgba(255,255,255, 0.85);
+    font-size: 2rem;
+
+}
+
+.caption {
+
+
+    border: 1px solid #efefef;
+    border-radius: 0 0 3px 3px;
+
+}
+
+
+.bottom {
+
+    margin-top: auto;
+
+}
+
+.bottomTag {
+
+    background-color: #ffffff;
+    margin-bottom: 1%;
+
+}
+
+
+.bottomTag .personIcon {
+
+    height: 32px;
+    width: 32px;
+    color: gray;
+    border: 1px solid black;
+
+}
+
+
+.cardBorder {
+
+border: 0
+
+}
+
+/* Buttons */
+
+
+.liked {
+
+    color: #e02760; 
+
+}
+
+.retweeted {
+
+    color:#37c675;
+
+}
